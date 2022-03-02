@@ -1,0 +1,33 @@
+/******************************TAG SELECTORS***********************************/
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+h1{
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+/********************************CLASS SELECTORS*******************************/
+
+.top_container{
+  background-color: #533E85;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.middle_container{
+  background-color: #5463FF;
+  height: 200px;
+  width: 500px;
+}
+
+.botton_container{
+  background-color: #FFC300;
+  height: 200px;
+  width: 500px;
+}
