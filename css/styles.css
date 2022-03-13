@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  color: #F2FA5A;
+  color: #0E4606;
   font-family: Geneva, Tahoma, Verdana, sans-serif;
   padding-top: 5px;
   font-size: 2.5rem;
@@ -143,6 +143,10 @@ hr{
   font-family: serif;
   font-size: 20px;
   color: #EAF6F6;
+}
+
+.programmer{
+  color: #F2FA5A;
 }
 
 /*.coding_para{
