@@ -3,9 +3,10 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 130%;
   background-color: #EFFFFD;
+  color: #0E4606;
 }
 
 h1 {
@@ -18,29 +19,43 @@ h1 {
 }
 
 h2 {
-  color: #0E4606;
+  color: #062C30;
   font-family: Geneva, Tahoma, Verdana, sans-serif;
-  padding-top: 5px;
+  padding-bottom: 10px;
   font-size: 2.5rem;
   font-weight: normal;
   line-height: 2;
 }
 
 h3 {
+  color: #062C30;
+  font-weight: bold;
+}
+
+p{
+  line-height: 2;
   color: #0E4606;
   font-weight: normal;
 }
 
-p{
-  color: #0E4606;
-}
-
 hr{
   border-style: dotted none none;
-  width: 8%;
+  width: 6%;
   height: 30px;
   border-color: grey;
   border-width: 5px;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
 }
 
 /********************************CLASS SELECTORS*******************************/
@@ -53,16 +68,22 @@ hr{
 }
 
 .middle_container {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /*padding-top: 50px;
+  padding-bottom: 50px;*/
+  margin: 100px 0;
 
 }
 
 .bottom_container{
-  padding-top: 20px;
+  padding:20px 0 20px;
   text-align: center;
   background-color: #66BFBF;
 
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
 }
 
 .stars {
@@ -92,7 +113,6 @@ hr{
   margin: 100px auto 100px auto;
   width: 50%;
   text-align: left;
-  line-height: 2;
 }
 
 .code{
@@ -117,7 +137,7 @@ hr{
  -webkit-border-radius: 28;
  -moz-border-radius: 28;
  border-radius: 28px;
- font-family: Arial;
+ font-family: 'Montserrat', sans-serif;
  color: #ffffff;
  font-size: 20px;
  padding: 10px 20px 10px 20px;
@@ -134,19 +154,25 @@ hr{
   text-decoration: none;
 }
 
-.footer-link{
+/*.footer-link{
   font-family: sans-serif;
   color: #11999E;
 }
-
+*/
 .copyright{
   font-family: serif;
-  font-size: 20px;
+  font-size: 1.0625rem;
   color: #EAF6F6;
+  padding: 20px, 0;
 }
 
 .programmer{
   color: #F2FA5A;
+}
+
+.contact_me{
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
 /*.coding_para{
